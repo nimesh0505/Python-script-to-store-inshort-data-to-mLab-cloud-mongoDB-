@@ -33,7 +33,7 @@ for n in range(len(list_category)):
 	    return score
 	a=len(data['data'])
 	category=list_category[n]
-	myclient =MongoClient("mongodb://nemo:nemo1234@ds137634.mlab.com:37634/cloud_all_inshort")
+	myclient =MongoClient(" your mLab mongodb api ")
 	db=myclient.cloud_all_inshort
 	if(db.cloud_final_db_converted.count()==0):
 		for i in range(a):
