@@ -1,4 +1,4 @@
-The repo contain a Flask applicationa dn a python file to complete the whole process of get the data from inshort and then storing into cloud database.
+The repo contain a Flask application and a python file to complete the whole process of getting the data from inshort and then storing into cloud database.
 
 How to run it :
 
